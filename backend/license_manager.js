@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const LICENSE_API_URL = 'https://voice-studio-license.nhmanh-dev.workers.dev';
+const LICENSE_API_URL = 'https://voice-studio-license.dinhkhanhtung.workers.dev';
 
 // Checks whether a key was revoked via the licensing Worker. Fail-open: any
 // error/timeout/parse failure (including "unknown" = key never issued through
@@ -268,3 +268,4 @@ module.exports = {
   getSavedLicense,
   saveLicenseKey
 };
+
