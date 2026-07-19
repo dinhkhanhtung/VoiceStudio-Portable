@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "clone_ai_vy",
+    "name": "Ái Vy",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ",
+    "refAudio": "assets/ref_audio/ai_vy.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nữ",
+      "tin tức",
+      "kể chuyện"
+    ],
+    "sampleUrl": "/assets/ref_audio/ai_vy.wav",
+    "descriptionEn": "Female voice"
+  },
+  {
+    "id": "clone_an_nhi",
+    "name": "An Nhi",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ",
+    "refAudio": "assets/ref_audio/an_nhi.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nữ",
+      "tin tức",
+      "kể chuyện"
+    ],
+    "sampleUrl": "/assets/ref_audio/an_nhi.wav",
+    "descriptionEn": "Female voice"
+  },
+  {
+    "id": "clone_my_van",
+    "name": "Mỹ Vân",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ",
+    "refAudio": "assets/ref_audio/my_van.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nữ",
+      "tin tức",
+      "kể chuyện"
+    ],
+    "sampleUrl": "/assets/ref_audio/my_van.wav",
+    "descriptionEn": "Female voice"
+  },
+  {
+    "id": "clone_nsnd_ha_phuong",
+    "name": "NSND Hà Phương",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng nam",
+    "refAudio": "assets/ref_audio/nsnd_ha_phuong.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nam",
+      "người già",
+      "tin tức",
+      "podcast"
+    ],
+    "sampleUrl": "/assets/ref_audio/nsnd_ha_phuong.wav",
+    "descriptionEn": "Male voice"
+  },
+  {
+    "id": "clone_nsnd_kim_cuc",
+    "name": "NSND Kim Cúc",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ",
+    "refAudio": "assets/ref_audio/nsnd_kim_cuc.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nữ",
+      "người già",
+      "tin tức",
+      "podcast"
+    ],
+    "sampleUrl": "/assets/ref_audio/nsnd_kim_cuc.wav",
+    "descriptionEn": "Female voice"
+  },
+  {
+    "id": "clone_yen_nhi",
+    "name": "Yến Nhi",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ",
+    "refAudio": "assets/ref_audio/yen_nhi_ref.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cong_dong",
+      "nữ",
+      "kể chuyện",
+      "lồng tiếng"
+    ],
+    "sampleUrl": "/assets/ref_audio/yen_nhi_ref.wav",
+    "descriptionEn": "Female voice"
+  },
+  {
+    "id": "vivibe_truyen-audio",
+    "name": "Truyện Audio (Giá tiết kiệm)",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Truyện dài, sách nói, video review, giọng nữ đa chức năng",
+    "refAudio": "assets/ref_audio/vivibe_truyen-audio.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Truyện Audio (Giá tiết kiệm). Truyện dài, sách nói, video review, giọng nữ đa chức năng",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "review",
+      "vlog",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_truyen-audio.wav",
+    "descriptionEn": "Novels, audiobooks, review videos — a versatile female voice"
+  },
+  {
+    "id": "vivibe_adam-3",
+    "name": "Adam 3",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_adam-3.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Adam 3. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "miền nam",
+      "nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_adam-3.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_co-nhan",
+    "name": "Cổ nhân",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_co-nhan.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Cổ nhân. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_co-nhan.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_giong-adam",
+    "name": "Giọng adam (Giá tiết kiệm)",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Làm vlog, lồng tiếng Tiktok, vô tri, hài hước, lựa chọn hạt dẻ nhất trên thị trường",
+    "refAudio": "assets/ref_audio/vivibe_giong-adam.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Giọng adam (Giá tiết kiệm). Làm vlog, lồng tiếng Tiktok, vô tri, hài hước, lựa chọn hạt dẻ nhất trên thị trư...",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "review",
+      "vlog",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_giong-adam.wav",
+    "descriptionEn": "Great for vlogs and TikTok dubbing — silly, funny, the top pick on the market"
+  },
+  {
+    "id": "vivibe_chi-chi",
+    "name": "Chi Chi",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ ngọt ngào, review quán ăn, du lịch, lồng tiếng phim",
+    "refAudio": "assets/ref_audio/vivibe_chi-chi.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Chi Chi. Giọng nữ ngọt ngào, review quán ăn, du lịch, lồng tiếng phim",
+    "tags": [
+      "nữ",
+      "miền nam",
+      "review",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_chi-chi.wav",
+    "descriptionEn": "Sweet female voice, ideal for food/travel reviews and film dubbing"
+  },
+  {
+    "id": "vivibe_quang-anh",
+    "name": "Quang Anh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Style thời sự, VTV, đọc báo",
+    "refAudio": "assets/ref_audio/vivibe_quang-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quang Anh. Style thời sự, VTV, đọc báo",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quang-anh.wav",
+    "descriptionEn": "News-anchor style, VTV-like, newspaper reading"
+  },
+  {
+    "id": "vivibe_duc-trung",
+    "name": "Đức Trung 3",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Là giọng nam quyền lực, trầm, làm quảng cáo, podcast",
+    "refAudio": "assets/ref_audio/vivibe_duc-trung.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Đức Trung 3. Là giọng nam quyền lực, trầm, làm quảng cáo, podcast",
+    "tags": [
+      "podcast",
+      "vlog",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_duc-trung.wav",
+    "descriptionEn": "A powerful, deep male voice, great for ads and podcasts"
+  },
+  {
+    "id": "vivibe_duc-trung-2",
+    "name": "Đức Trung",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Là giọng nam quyền lực, trầm, làm quảng cáo, podcast",
+    "refAudio": "assets/ref_audio/vivibe_duc-trung-2.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Đức Trung. Là giọng nam quyền lực, trầm, làm quảng cáo, podcast",
+    "tags": [
+      "podcast",
+      "vlog",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_duc-trung-2.wav",
+    "descriptionEn": "A powerful, deep male voice, great for ads and podcasts"
+  },
+  {
+    "id": "vivibe_ash",
+    "name": "Ash",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_ash.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Ash. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "tiếng Anh",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ash.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_jessica",
+    "name": "Jessica",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_jessica.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Jessica. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "tiếng Anh",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_jessica.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_trung-quan",
+    "name": "Trung Quân",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_trung-quan.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Trung Quân. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_trung-quan.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_vy-tin-tuc",
+    "name": "Vy Tin Tức",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_vy-tin-tuc.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Vy Tin Tức. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "tin tức",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_vy-tin-tuc.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_chi-mai",
+    "name": "Chi Mai",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nhẹ, thầm thì, trẻ con",
+    "refAudio": "assets/ref_audio/vivibe_chi-mai.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Chi Mai. Giọng nhẹ, thầm thì, trẻ con",
+    "tags": [
+      "lồng tiếng",
+      "đọc truyện",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_chi-mai.wav",
+    "descriptionEn": "Soft, whispery, childlike voice"
+  },
+  {
+    "id": "vivibe_bao-anh",
+    "name": "Bảo Anh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng dịu dàng, chữa lành",
+    "refAudio": "assets/ref_audio/vivibe_bao-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Bảo Anh. Giọng dịu dàng, chữa lành",
+    "tags": [
+      "lồng tiếng",
+      "đọc truyện",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_bao-anh.wav",
+    "descriptionEn": "Gentle, soothing voice"
+  },
+  {
+    "id": "vivibe_duc-anh",
+    "name": "Đức Anh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng hài, phỏng vấn, loa phường, đa nội dung",
+    "refAudio": "assets/ref_audio/vivibe_duc-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Đức Anh. Giọng hài, phỏng vấn, loa phường, đa nội dung",
+    "tags": [
+      "review",
+      "podcast",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_duc-anh.wav",
+    "descriptionEn": "Comedic voice, interviews, neighborhood-loudspeaker style, versatile content"
+  },
+  {
+    "id": "vivibe_my-review",
+    "name": "My Review",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nhanh, review sản phẩm, trải nghiệm",
+    "refAudio": "assets/ref_audio/vivibe_my-review.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là My Review. Giọng nhanh, review sản phẩm, trải nghiệm",
+    "tags": [
+      "review",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_my-review.wav",
+    "descriptionEn": "Fast-paced voice, great for product reviews and experience sharing"
+  },
+  {
+    "id": "vivibe_truong-an",
+    "name": "Trường An (Phật Pháp)",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng trung trầm, ấm áp và truyền cảm, mang phong thái tự sự, chiêm nghiệm, phù hợp để đọc sách nói về triết lý, tôn giáo, dẫn podcast có chiều sâu và thuyết minh phim tài liệu lịch sử, văn hóa.",
+    "refAudio": "assets/ref_audio/vivibe_truong-an.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Trường An (Phật Pháp). Giọng trung trầm, ấm áp và truyền cảm, mang phong thái tự sự, chiêm nghiệm, phù ...",
+    "tags": [
+      "đọc sách",
+      "podcast",
+      "thuyết minh",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_truong-an.wav",
+    "descriptionEn": "A mid-low, warm, expressive voice with a reflective, narrative tone — great for philosophy or religious audiobooks, in-depth podcasts, and historical/cultural documentary narration."
+  },
+  {
+    "id": "vivibe_dung-long-tieng",
+    "name": "Dung Lồng Tiếng",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_dung-long-tieng.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Dung Lồng Tiếng. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "lồng tiếng",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_dung-long-tieng.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_tvc-4",
+    "name": "TVC 4",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_tvc-4.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là TVC 4. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tvc-4.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_trinh-review",
+    "name": "Trinh Review",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_trinh-review.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Trinh Review. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "review",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_trinh-review.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_quoc-bao",
+    "name": "Quốc Bảo",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là giọng nam trầm ấm, hơi nghẹt mũi, có thể dùng làm podcast",
+    "refAudio": "assets/ref_audio/vivibe_quoc-bao.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quốc Bảo. Đây là giọng nam trầm ấm, hơi nghẹt mũi, có thể dùng làm podcast",
+    "tags": [
+      "thuyết minh",
+      "podcast",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quoc-bao.wav",
+    "descriptionEn": "A warm, deep male voice with a slightly nasal tone — good for podcasts"
+  },
+  {
+    "id": "vivibe_quynh-giao-nu-doc-tho",
+    "name": "Quỳnh Giao (nữ đọc thơ)",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_quynh-giao-nu-doc-tho.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quỳnh Giao (nữ đọc thơ). Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "đọc thơ",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quynh-giao-nu-doc-tho.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_chinh-review",
+    "name": "Chinh Review",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói review hay",
+    "refAudio": "assets/ref_audio/vivibe_chinh-review.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Chinh Review. Đây là một giọng nói review hay",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "review",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_chinh-review.wav",
+    "descriptionEn": "A great review-style voice"
+  },
+  {
+    "id": "vivibe_tvc-3",
+    "name": "TVC 3",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_tvc-3.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là TVC 3. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "tvc",
+      "quảng cáo",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tvc-3.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_tvc-2",
+    "name": "TVC 2",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_tvc-2.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là TVC 2. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "tvc",
+      "quảng cáo",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tvc-2.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_tvc-1",
+    "name": "TVC 1",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_tvc-1.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là TVC 1. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "quảng cáo",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tvc-1.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_nguyet-anh",
+    "name": "Nguyệt Ánh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ voice over video, tự sự, phát thanh, thông tin trung tính",
+    "refAudio": "assets/ref_audio/vivibe_nguyet-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Nguyệt Ánh. Giọng nữ voice over video, tự sự, phát thanh, thông tin trung tính",
+    "tags": [
+      "tin tức",
+      "thuyết minh",
+      "lồng tiếng",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_nguyet-anh.wav",
+    "descriptionEn": "Female voiceover voice — narrative, radio-style, neutral for informational content"
+  },
+  {
+    "id": "vivibe_hoai-nam",
+    "name": "Hoài Nam",
+    "type": "cloned",
+    "gender": "",
+    "description": "Trầm ấm, giọng tử vi, triết học cuộc sống",
+    "refAudio": "assets/ref_audio/vivibe_hoai-nam.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hoài Nam. Trầm ấm, giọng tử vi, triết học cuộc sống",
+    "tags": [
+      "podcast",
+      "sách nói",
+      "lồng tiếng",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_hoai-nam.wav",
+    "descriptionEn": "Deep and warm, astrology style, life-philosophy tone"
+  },
+  {
+    "id": "vivibe_adam-2",
+    "name": "Adam 2",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_adam-2.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Adam 2. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_adam-2.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_adam-tra-da-2",
+    "name": "Adam Trà Đá",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_adam-tra-da-2.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Adam Trà Đá. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_adam-tra-da-2.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_ly-tam-ly",
+    "name": "Ly Tâm Lý",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_ly-tam-ly.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Ly Tâm Lý. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ly-tam-ly.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_ha-review",
+    "name": "Hà Review",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng review hay",
+    "refAudio": "assets/ref_audio/vivibe_ha-review.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hà Review. Đây là một giọng review hay",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "review",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ha-review.wav",
+    "descriptionEn": "A great review voice"
+  },
+  {
+    "id": "vivibe_quang-review",
+    "name": "Quang Review",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói review chân thực",
+    "refAudio": "assets/ref_audio/vivibe_quang-review.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quang Review. Đây là một giọng nói review chân thực",
+    "tags": [
+      "nam",
+      "miền bắc",
+      "review",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quang-review.wav",
+    "descriptionEn": "An authentic, genuine review voice"
+  },
+  {
+    "id": "vivibe_huy-vu",
+    "name": "Huy Vũ",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng nam gần gũi, thân mật, nhẹ nhàng",
+    "refAudio": "assets/ref_audio/vivibe_huy-vu.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Huy Vũ. Giọng nam gần gũi, thân mật, nhẹ nhàng",
+    "tags": [
+      "podcast",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_huy-vu.wav",
+    "descriptionEn": "Friendly, intimate, gentle male voice"
+  },
+  {
+    "id": "vivibe_phuong-thao",
+    "name": "Phương Thảo",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng trẻ, nghe ấm áp, yêu thương phù hợp để làm podcast chữa lành hoặc kể chuyện",
+    "refAudio": "assets/ref_audio/vivibe_phuong-thao.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Phương Thảo. Giọng trẻ, nghe ấm áp, yêu thương phù hợp để làm podcast chữa lành hoặc kể chuyệ...",
+    "tags": [
+      "podcast",
+      "kể chuyện",
+      "quảng cáo",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_phuong-thao.wav",
+    "descriptionEn": "A young, warm, loving voice — great for healing podcasts or storytelling"
+  },
+  {
+    "id": "vivibe_ngoc-nhi",
+    "name": "Ngọc Nhi",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ trẻ tự nhiên làm các nội dung về đời sống",
+    "refAudio": "assets/ref_audio/vivibe_ngoc-nhi.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Ngọc Nhi. Giọng nữ trẻ tự nhiên làm các nội dung về đời sống",
+    "tags": [
+      "podcast",
+      "vlog",
+      "review",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ngoc-nhi.wav",
+    "descriptionEn": "A natural young female voice for lifestyle content"
+  },
+  {
+    "id": "vivibe_bach-tung",
+    "name": "Bách Tùng",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Loa phường thập niên 80",
+    "refAudio": "assets/ref_audio/vivibe_bach-tung.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Bách Tùng. Loa phường thập niên 80",
+    "tags": [
+      "lồng tiếng",
+      "kể chuyện",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_bach-tung.wav",
+    "descriptionEn": "1980s neighborhood-loudspeaker style"
+  },
+  {
+    "id": "vivibe_thu-ha",
+    "name": "Thu Hà",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng trầm ấm để đọc sách, kể chuyện, thuyết minh",
+    "refAudio": "assets/ref_audio/vivibe_thu-ha.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thu Hà. Giọng trầm ấm để đọc sách, kể chuyện, thuyết minh",
+    "tags": [
+      "đọc sách",
+      "podcast",
+      "thuyết minh",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thu-ha.wav",
+    "descriptionEn": "Warm, deep voice for audiobooks, storytelling, and narration"
+  },
+  {
+    "id": "vivibe_trung-duong",
+    "name": "Trùng Dương (nữ đọc thơ)",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_trung-duong.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Trùng Dương (nữ đọc thơ). Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền bắc",
+      "podcast",
+      "đọc thơ",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_trung-duong.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_kim-oanh",
+    "name": "Kim Oanh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ rõ ràng, rành mạnh, đa chức năng",
+    "refAudio": "assets/ref_audio/vivibe_kim-oanh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Kim Oanh. Giọng nữ rõ ràng, rành mạnh, đa chức năng",
+    "tags": [
+      "lồng tiếng",
+      "đọc truyện",
+      "podcast",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_kim-oanh.wav",
+    "descriptionEn": "Clear, articulate, versatile female voice"
+  },
+  {
+    "id": "vivibe_minh-trang",
+    "name": "Minh Trang",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là giọng của người già, phù hợp làm những nội dung liên quan đến kể chuyện và tin tức",
+    "refAudio": "assets/ref_audio/vivibe_minh-trang.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Trang. Đây là giọng của người già, phù hợp làm những nội dung liên quan đến kể chuyện v...",
+    "tags": [
+      "tin tức",
+      "thuyết minh",
+      "nữ",
+      "miền bắc",
+      "người già",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-trang.wav",
+    "descriptionEn": "An elderly voice, suited for storytelling and news content"
+  },
+  {
+    "id": "vivibe_hung-dung",
+    "name": "Hùng Dũng",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là giọng nam trung niên, rất thích hợp để làm các thể loại như phim kiếm hiệp",
+    "refAudio": "assets/ref_audio/vivibe_hung-dung.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hùng Dũng. Đây là giọng nam trung niên, rất thích hợp để làm các thể loại như phim kiếm hiệ...",
+    "tags": [
+      "lồng tiếng",
+      "thuyết minh",
+      "đọc truyện",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_hung-dung.wav",
+    "descriptionEn": "A middle-aged male voice, great for genres like wuxia/martial-arts films"
+  },
+  {
+    "id": "vivibe_an-nhien",
+    "name": "An Nhiên",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ trẻ, trong, có nhấn nhá thích hợp kể chuyện chữa lành hay đọc sách nói.",
+    "refAudio": "assets/ref_audio/vivibe_an-nhien.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là An Nhiên. Giọng nữ trẻ, trong, có nhấn nhá thích hợp kể chuyện chữa lành hay đọc sách nói.",
+    "tags": [
+      "podcast",
+      "kể chuyện",
+      "sách nói",
+      "nữ",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_an-nhien.wav",
+    "descriptionEn": "A young, clear female voice with expressive inflection — great for healing stories or audiobooks."
+  },
+  {
+    "id": "vivibe_thanh-van",
+    "name": "Thanh Vân",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Hợp đa thể loại như podcast, kể chuyện, lồng tiếng vì giọng cao và dễ nghe",
+    "refAudio": "assets/ref_audio/vivibe_thanh-van.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thanh Vân. Hợp đa thể loại như podcast, kể chuyện, lồng tiếng vì giọng cao và dễ nghe",
+    "tags": [
+      "podcast",
+      "vlog",
+      "review",
+      "lồng tiếng",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thanh-van.wav",
+    "descriptionEn": "Versatile across podcasts, storytelling, and dubbing thanks to its high, easy-to-listen tone"
+  },
+  {
+    "id": "vivibe_minh-dam",
+    "name": "Minh Đàm",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Chất giọng trầm ấm và có duyên kể chuyện, rất phù hợp để đọc truyện kinh dị, trinh thám hay các hồi ký cần sự sâu sắc",
+    "refAudio": "assets/ref_audio/vivibe_minh-dam.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Đàm. Chất giọng trầm ấm và có duyên kể chuyện, rất phù hợp để đọc truyện kinh dị, tri...",
+    "tags": [
+      "đọc truyện",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-dam.wav",
+    "descriptionEn": "A warm, engaging storytelling voice — great for horror, detective fiction, or memoirs that need depth"
+  },
+  {
+    "id": "vivibe_quang-minh",
+    "name": "Quang Minh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng này nghe rõ và tự tin, phù hợp đọc các bản tin hoặc các quảng cáo cần sự tin tưởng.",
+    "refAudio": "assets/ref_audio/vivibe_quang-minh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quang Minh. Giọng này nghe rõ và tự tin, phù hợp đọc các bản tin hoặc các quảng cáo cần sự t...",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quang-minh.wav",
+    "descriptionEn": "Clear and confident — well-suited for news bulletins or ads that need to sound trustworthy."
+  },
+  {
+    "id": "vivibe_thanh-mai",
+    "name": "Thanh Mai",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là giọng nữ có tông giọng cao nhưng có xu hướng thủ thỉ nên dùng làm podcast hay đọc truyện lãng mạn.",
+    "refAudio": "assets/ref_audio/vivibe_thanh-mai.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thanh Mai. Đây là giọng nữ có tông giọng cao nhưng có xu hướng thủ thỉ nên dùng làm podcast...",
+    "tags": [
+      "đọc truyện",
+      "podcast",
+      "lồng tiếng",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thanh-mai.wav",
+    "descriptionEn": "A high-toned female voice with a soft, whispery quality — good for podcasts or romance audiobooks."
+  },
+  {
+    "id": "vivibe_tung-son",
+    "name": "Tùng Sơn",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng trung trầm, gằn nhẹ và tự tin, phù hợp để lồng tiếng phim hành động, game và dẫn các kênh review, podcast mạnh mẽ.",
+    "refAudio": "assets/ref_audio/vivibe_tung-son.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Tùng Sơn. Giọng trung trầm, gằn nhẹ và tự tin, phù hợp để lồng tiếng phim hành động, game ...",
+    "tags": [
+      "lồng tiếng",
+      "review",
+      "podcast",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tung-son.wav",
+    "descriptionEn": "Mid-low, slightly gritty and confident — great for action-film/game dubbing and bold review channels or podcasts."
+  },
+  {
+    "id": "vivibe_quoc-khanh",
+    "name": "Quốc Khánh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là giọng chuyên nghiệp, phfu hợp quảng cáo, đọc tin tức",
+    "refAudio": "assets/ref_audio/vivibe_quoc-khanh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quốc Khánh. Đây là giọng chuyên nghiệp, phfu hợp quảng cáo, đọc tin tức",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "lồng tiếng",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quoc-khanh.wav",
+    "descriptionEn": "A professional voice, suited for ads and news reading"
+  },
+  {
+    "id": "vivibe_hoang-minh",
+    "name": "Hoàng Minh 2",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_hoang-minh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hoàng Minh 2. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_hoang-minh.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_hoang-minh-2",
+    "name": "Hoàng Minh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_hoang-minh-2.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hoàng Minh. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_hoang-minh-2.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_trung-kien",
+    "name": "Trung Kiên",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng nam trung lập, kể chuyện, đa chức năng",
+    "refAudio": "assets/ref_audio/vivibe_trung-kien.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Trung Kiên. Giọng nam trung lập, kể chuyện, đa chức năng",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "thuyết minh",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_trung-kien.wav",
+    "descriptionEn": "Neutral male voice, storytelling, versatile"
+  },
+  {
+    "id": "vivibe_minh-triet",
+    "name": "Minh Triết",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Là giọng nam nhẹ nhàng, tông giọng rất phù hợp dùng để quảng cáo, đọc sách",
+    "refAudio": "assets/ref_audio/vivibe_minh-triet.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Triết. Là giọng nam nhẹ nhàng, tông giọng rất phù hợp dùng để quảng cáo, đọc sách",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "quảng cáo",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-triet.wav",
+    "descriptionEn": "A gentle male voice, well-suited for ads and audiobooks"
+  },
+  {
+    "id": "vivibe_gia-khiem",
+    "name": "Gia Khiêm",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Chất giọng trầm ấm, điềm đạm, hợp với kiểu tự sự như làm podcast tâm sự, đọc sách về cuộc sống, hay lồng tiếng cho vai nội tâm.",
+    "refAudio": "assets/ref_audio/vivibe_gia-khiem.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Gia Khiêm. Chất giọng trầm ấm, điềm đạm, hợp với kiểu tự sự như làm podcast tâm sự, đọc sác...",
+    "tags": [
+      "podcast",
+      "đọc sách",
+      "lồng tiếng",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_gia-khiem.wav",
+    "descriptionEn": "Warm, calm, and composed — great for confessional-style podcasts, life-themed audiobooks, or inner-voice dubbing."
+  },
+  {
+    "id": "vivibe_an-chi",
+    "name": "An Chi",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng rất dịu dàng, nhẹ nhàng, ngọt ngào, phù hợp làm các nội dung như đọc truyện, kể chuyện, lồng tiếng các chủ đề dễ thương",
+    "refAudio": "assets/ref_audio/vivibe_an-chi.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là An Chi. Giọng rất dịu dàng, nhẹ nhàng, ngọt ngào, phù hợp làm các nội dung như đọc truyệ...",
+    "tags": [
+      "lồng tiếng",
+      "đọc truyện",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_an-chi.wav",
+    "descriptionEn": "Very gentle, soft, and sweet — great for stories, storytelling, and dubbing cute content"
+  },
+  {
+    "id": "vivibe_thanh-tam",
+    "name": "Thanh Tâm",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng ngọt ngào, dễ nghe, mát tai, có thể hợp đọc sách, kể chuyện những chủ đề chữa lành",
+    "refAudio": "assets/ref_audio/vivibe_thanh-tam.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thanh Tâm. Giọng ngọt ngào, dễ nghe, mát tai, có thể hợp đọc sách, kể chuyện những chủ đề c...",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thanh-tam.wav",
+    "descriptionEn": "Sweet, easy-listening voice — good for audiobooks and healing-themed storytelling"
+  },
+  {
+    "id": "vivibe_ha-my",
+    "name": "Hà My",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ, chuyên nghiệp rất phù hợp để dẫn chương trình, kể chuyện đa thể loại",
+    "refAudio": "assets/ref_audio/vivibe_ha-my.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hà My. Giọng nữ, chuyên nghiệp rất phù hợp để dẫn chương trình, kể chuyện đa thể loại",
+    "tags": [
+      "lồng tiếng",
+      "podcast",
+      "kể chuyện",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ha-my.wav",
+    "descriptionEn": "Professional female voice, great for hosting shows and storytelling across genres"
+  },
+  {
+    "id": "vivibe_anh-khoa",
+    "name": "Anh Khoa",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng miền Nam, mộc mạc gần gũi làm nội dung kể chuyện đời sống hang ngày",
+    "refAudio": "assets/ref_audio/vivibe_anh-khoa.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Anh Khoa. Giọng miền Nam, mộc mạc gần gũi làm nội dung kể chuyện đời sống hang ngày",
+    "tags": [
+      "vlog",
+      "podcast",
+      "giải trí",
+      "miền nam",
+      "nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_anh-khoa.wav",
+    "descriptionEn": "Southern accent, down-to-earth and warm — great for everyday-life storytelling"
+  },
+  {
+    "id": "vivibe_tu-anh",
+    "name": "Tú Anh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Chất giọng nữ trung cao, trong trẻo và chuyên nghiệp, phù hợp để thuyết minh video khoa học, y tế, đọc sách chuyên ngành và quảng cáo dược phẩm.",
+    "refAudio": "assets/ref_audio/vivibe_tu-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Tú Anh. Chất giọng nữ trung cao, trong trẻo và chuyên nghiệp, phù hợp để thuyết minh vid...",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "quảng cáo",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_tu-anh.wav",
+    "descriptionEn": "A mid-high, clear, professional female voice — great for science/medical narration, specialized audiobooks, and pharmaceutical ads."
+  },
+  {
+    "id": "vivibe_thuc-doan",
+    "name": "Thục Đoan",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng trung cao, trong trẻo và dịu dàng, phù hợp để thuyết minh các video kiến thức, đọc truyện thiếu nhi và lồng tiếng cho các nhân vật ôn hòa.",
+    "refAudio": "assets/ref_audio/vivibe_thuc-doan.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thục Đoan. Giọng trung cao, trong trẻo và dịu dàng, phù hợp để thuyết minh các video kiến t...",
+    "tags": [
+      "thuyết minh",
+      "đọc truyện",
+      "lồng tiếng",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thuc-doan.wav",
+    "descriptionEn": "Mid-high, clear, and gentle — great for educational video narration, children's stories, and dubbing mild-mannered characters."
+  },
+  {
+    "id": "vivibe_the-anh",
+    "name": "Thế Anh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là giọng nam mang xu hướng thủ thỉ, có thể làm các nội dung như kể chuyện, đọc truyện",
+    "refAudio": "assets/ref_audio/vivibe_the-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thế Anh. Đây là giọng nam mang xu hướng thủ thỉ, có thể làm các nội dung như kể chuyện, đ...",
+    "tags": [
+      "podcast",
+      "đọc sách",
+      "thuyết minh",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_the-anh.wav",
+    "descriptionEn": "A soft-spoken male voice, good for storytelling content"
+  },
+  {
+    "id": "vivibe_minh-nguyet",
+    "name": "Minh Nguyệt",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ cao, chuyên nghiệp",
+    "refAudio": "assets/ref_audio/vivibe_minh-nguyet.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Nguyệt. Giọng nữ cao, chuyên nghiệp",
+    "tags": [
+      "dẫn chương trình",
+      "lồng tiếng",
+      "podcast",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-nguyet.wav",
+    "descriptionEn": "High, professional female voice"
+  },
+  {
+    "id": "vivibe_bao-tran",
+    "name": "Bảo Trân",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng tôi trong và giàu biểu cảm, phù hợp để lồng tiếng nhân vật cá tính và dẫn dắt các nội dung đời sống như vlog hay kể chuyện",
+    "refAudio": "assets/ref_audio/vivibe_bao-tran.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Bảo Trân. Giọng tôi trong và giàu biểu cảm, phù hợp để lồng tiếng nhân vật cá tính và dẫn ...",
+    "tags": [
+      "lồng tiếng",
+      "kể chuyện",
+      "vlog",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_bao-tran.wav",
+    "descriptionEn": "A clear, expressive voice — great for dubbing distinctive characters and hosting lifestyle content like vlogs or storytelling"
+  },
+  {
+    "id": "vivibe_the-phong",
+    "name": "Thế Phong",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng này ấm áp, có thể làm các nội dung liên quan về cảm xúc như kể chuyện",
+    "refAudio": "assets/ref_audio/vivibe_the-phong.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thế Phong. Giọng này ấm áp, có thể làm các nội dung liên quan về cảm xúc như kể chuyện",
+    "tags": [
+      "podcast",
+      "đọc truyện",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_the-phong.wav",
+    "descriptionEn": "A warm voice, good for emotional content like storytelling"
+  },
+  {
+    "id": "vivibe_ngoc-bich",
+    "name": "Ngọc Bích",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng phụ nữ miền Nam, hợp thuyết minh phim",
+    "refAudio": "assets/ref_audio/vivibe_ngoc-bich.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Ngọc Bích. Giọng phụ nữ miền Nam, hợp thuyết minh phim",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_ngoc-bich.wav",
+    "descriptionEn": "Southern female voice, good for film narration"
+  },
+  {
+    "id": "vivibe_minh-tue",
+    "name": "Minh Tuệ",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Là giọng của phụ nữ trung niên, nghe quyền lực, phù hợp lồng tiếng cho các nhân vật quyền lực trong phim, hoặc có thể đọc tin tức",
+    "refAudio": "assets/ref_audio/vivibe_minh-tue.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Tuệ. Là giọng của phụ nữ trung niên, nghe quyền lực, phù hợp lồng tiếng cho các nhân ...",
+    "tags": [
+      "lồng tiếng",
+      "tin tức",
+      "podcast",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-tue.wav",
+    "descriptionEn": "A middle-aged female voice with a commanding tone — great for dubbing powerful film characters or reading the news"
+  },
+  {
+    "id": "vivibe_the-vinh",
+    "name": "Thế Vinh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng đàn ông trưởng thành, dễ nghe, nhẹ nhàng, phù hợp với review và podcast",
+    "refAudio": "assets/ref_audio/vivibe_the-vinh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thế Vinh. Giọng đàn ông trưởng thành, dễ nghe, nhẹ nhàng, phù hợp với review và podcast",
+    "tags": [
+      "tin tức",
+      "thuyết minh",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_the-vinh.wav",
+    "descriptionEn": "A mature male voice, easy-listening and gentle — good for reviews and podcasts"
+  },
+  {
+    "id": "vivibe_phuong-khanh",
+    "name": "Phương Khanh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng nữ miền Nam, nhẹ nhàng, ngọt ngào, dễ nghe, có thể dùng làm giọng tổng đài hoặc thuyết minh",
+    "refAudio": "assets/ref_audio/vivibe_phuong-khanh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Phương Khanh. Giọng nữ miền Nam, nhẹ nhàng, ngọt ngào, dễ nghe, có thể dùng làm giọng tổng đài...",
+    "tags": [
+      "thuyết minh",
+      "tổng đài",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_phuong-khanh.wav",
+    "descriptionEn": "Southern female voice, gentle and sweet — good for call-center prompts or narration"
+  },
+  {
+    "id": "vivibe_thanh-trung",
+    "name": "Thành Trung",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng này trầm ấm, kiểu kể chuyện có nhấn nhá. Hợp nhất là đọc mấy truyện xưa, hay thuyết minh phim tài liệu, lịch sử.",
+    "refAudio": "assets/ref_audio/vivibe_thanh-trung.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thành Trung. Giọng này trầm ấm, kiểu kể chuyện có nhấn nhá. Hợp nhất là đọc mấy truyện xưa, h...",
+    "tags": [
+      "tiểu thuyết",
+      "lồng tiếng",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thanh-trung.wav",
+    "descriptionEn": "Warm and deep, with an expressive storytelling style. Best for classic tales or historical/documentary narration."
+  },
+  {
+    "id": "vivibe_khanh-vy",
+    "name": "Khánh Vy",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng này cao, nghe hơi đanh đá một chút, rất phù hợp để kể chuyện và các nội dung về giải trí",
+    "refAudio": "assets/ref_audio/vivibe_khanh-vy.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Khánh Vy. Giọng này cao, nghe hơi đanh đá một chút, rất phù hợp để kể chuyện và các nội du...",
+    "tags": [
+      "lồng tiếng",
+      "giải trí",
+      "vlog",
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_khanh-vy.wav",
+    "descriptionEn": "High-pitched with a bit of sass — great for storytelling and entertainment content"
+  },
+  {
+    "id": "vivibe_minh-khoi",
+    "name": "Minh Khôi",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng uy tín, có lực phù hợp để dẫn bản tin, podcast liên quan về kiến thức.",
+    "refAudio": "assets/ref_audio/vivibe_minh-khoi.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Khôi. Giọng uy tín, có lực phù hợp để dẫn bản tin, podcast liên quan về kiến thức.",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "review",
+      "quảng cáo",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-khoi.wav",
+    "descriptionEn": "An authoritative, strong voice — great for news bulletins and knowledge-focused podcasts."
+  },
+  {
+    "id": "vivibe_quang-dung",
+    "name": "Quang Dũng",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng chuyên nghiệp, miền Nam, rất lý tưởng để dẫn chương trình, đọc sách",
+    "refAudio": "assets/ref_audio/vivibe_quang-dung.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Quang Dũng. Giọng chuyên nghiệp, miền Nam, rất lý tưởng để dẫn chương trình, đọc sách",
+    "tags": [
+      "dẫn chương trình",
+      "đọc sách",
+      "lồng tiếng",
+      "quảng cáo",
+      "miền nam",
+      "nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_quang-dung.wav",
+    "descriptionEn": "Professional Southern voice, ideal for hosting shows and audiobooks"
+  },
+  {
+    "id": "vivibe_to-minh",
+    "name": "Tô Minh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_to-minh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Tô Minh. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_to-minh.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_thai-son",
+    "name": "Thái Sơn",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Giọng đàn ông, hơi đục, kể chuyện và lồng tiếng thì lý tưởng",
+    "refAudio": "assets/ref_audio/vivibe_thai-son.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thái Sơn. Giọng đàn ông, hơi đục, kể chuyện và lồng tiếng thì lý tưởng",
+    "tags": [
+      "lồng tiếng",
+      "review",
+      "dẫn chương trình",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thai-son.wav",
+    "descriptionEn": "A slightly husky male voice, ideal for storytelling and dubbing"
+  },
+  {
+    "id": "vivibe_kha-ngan",
+    "name": "Khả Ngân",
+    "type": "cloned",
+    "gender": "",
+    "description": "Giọng tự nhiên, nhanh nhẹn, năng động, các bạn có thể dùng để làm review, làm phim",
+    "refAudio": "assets/ref_audio/vivibe_kha-ngan.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Khả Ngân. Giọng tự nhiên, nhanh nhẹn, năng động, các bạn có thể dùng để làm review, làm ph...",
+    "tags": [
+      "lồng tiếng",
+      "vj",
+      "review",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_kha-ngan.wav",
+    "descriptionEn": "Natural, brisk, and energetic — great for reviews or filmmaking"
+  },
+  {
+    "id": "vivibe_minh-thu",
+    "name": "Minh Thư",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng cao, hơi ngang dùng đọc sách hoặc thuyết minh",
+    "refAudio": "assets/ref_audio/vivibe_minh-thu.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Thư. Giọng cao, hơi ngang dùng đọc sách hoặc thuyết minh",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-thu.wav",
+    "descriptionEn": "High-pitched with a slightly flat tone — for audiobooks or narration"
+  },
+  {
+    "id": "vivibe_thu-hang",
+    "name": "Thu Hằng",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Giọng phụ nữ lớn tuổi, hơi vang, uy tín dùng đọc tin tức và thuyết minh",
+    "refAudio": "assets/ref_audio/vivibe_thu-hang.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thu Hằng. Giọng phụ nữ lớn tuổi, hơi vang, uy tín dùng đọc tin tức và thuyết minh",
+    "tags": [
+      "tin tức",
+      "thuyết minh",
+      "nữ",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thu-hang.wav",
+    "descriptionEn": "An older woman's voice, slightly resonant and authoritative — used for news reading and narration"
+  },
+  {
+    "id": "vivibe_be-minh-anh",
+    "name": "Bé Minh Anh",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_be-minh-anh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Bé Minh Anh. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "trẻ em",
+      "nam",
+      "miền bắc",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_be-minh-anh.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_thuc-quyen",
+    "name": "Thục Quyên",
+    "type": "cloned",
+    "gender": "",
+    "description": "Giọng nữ trung niên, nghe chững chạc hợp lồng tiếng",
+    "refAudio": "assets/ref_audio/vivibe_thuc-quyen.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Thục Quyên. Giọng nữ trung niên, nghe chững chạc hợp lồng tiếng",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "lồng tiếng",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_thuc-quyen.wav",
+    "descriptionEn": "A middle-aged female voice with a composed tone, good for dubbing"
+  },
+  {
+    "id": "vivibe_my-linh",
+    "name": "Mỹ Linh",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Là giọng miền Nam, giản dị, mộc mạc, có thể dùng cho các nội dung về tin tức hoặc kể chuyện",
+    "refAudio": "assets/ref_audio/vivibe_my-linh.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Mỹ Linh. Là giọng miền Nam, giản dị, mộc mạc, có thể dùng cho các nội dung về tin tức hoặ...",
+    "tags": [
+      "tin tức",
+      "podcast",
+      "thuyết minh",
+      "miền nam",
+      "nữ",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_my-linh.wav",
+    "descriptionEn": "A Southern voice, simple and down-to-earth — good for news or storytelling content"
+  },
+  {
+    "id": "vivibe_minh-duc",
+    "name": "Minh Đức",
+    "type": "cloned",
+    "gender": "Nam",
+    "description": "Chất giọng hơi đục và nghiêm túc, có thể sử dụng để làm các nội dung về kiến thức, khoa học và chuyên ngành",
+    "refAudio": "assets/ref_audio/vivibe_minh-duc.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Minh Đức. Chất giọng hơi đục và nghiêm túc, có thể sử dụng để làm các nội dung về kiến thứ...",
+    "tags": [
+      "thuyết minh",
+      "đọc sách",
+      "nam",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_minh-duc.wav",
+    "descriptionEn": "A slightly husky, serious tone — good for educational, scientific, and specialized content"
+  },
+  {
+    "id": "vivibe_khoi-my",
+    "name": "Khởi My",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_khoi-my.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Khởi My. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_khoi-my.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_my-nhan",
+    "name": "Mỹ Nhân",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_my-nhan.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Mỹ Nhân. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_my-nhan.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "vivibe_hoang-vy",
+    "name": "Hoàng Vy",
+    "type": "cloned",
+    "gender": "Nữ",
+    "description": "Đây là một giọng nói hay và tự nhiên",
+    "refAudio": "assets/ref_audio/vivibe_hoang-vy.wav",
+    "refText": "Xin chào, đây là bản thử nghiệm giọng nói của tôi trên nền tảng Vi Vibe. Tôi là Hoàng Vy. Đây là một giọng nói hay và tự nhiên",
+    "tags": [
+      "nữ",
+      "miền nam",
+      "cong_dong"
+    ],
+    "sampleUrl": "/assets/samples/vivibe_hoang-vy.wav",
+    "descriptionEn": "A pleasant, natural-sounding voice"
+  },
+  {
+    "id": "clone_test_1783956895573",
+    "name": "test",
+    "type": "cloned",
+    "gender": "",
+    "description": "Giọng do bạn tự tạo",
+    "refAudio": "assets/ref_audio/clone_test_1783956895573.wav",
+    "refText": "Chúng tôi xây dựng một hệ sinh thái AI để mọi người đều có thể tiếp cận, sáng tạo và tự động hóa công việc hằng ngày một cách đơn giản, dễ sử dụng và miễn phí. AI cho mọi người, AI cho mọi nhu cầu.",
+    "tags": [
+      "cua_ban"
+    ],
+    "sampleUrl": "/assets/ref_audio/clone_test_1783956895573.wav",
+    "createdAt": "2026-07-13T15:34:55.574Z"
+  }
+]

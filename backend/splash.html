@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Khởi tạo Voice Studio</title>
+  <style>
+    :root {
+      --bg-color: #0F172A;
+      --card-bg: rgba(30, 41, 59, 0.7);
+      --text-color: #F8FAFC;
+      --text-muted: #94A3B8;
+      --primary: #6366F1;
+      --primary-glow: rgba(99, 102, 241, 0.4);
+      --border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    /* Support light theme if preferred, but dark mode is cooler for splash */
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #F8FAFC;
+        --card-bg: rgba(255, 255, 255, 0.8);
+        --text-color: #0F172A;
+        --text-muted: #64748B;
+        --primary: #4F46E5;
+        --primary-glow: rgba(79, 70, 229, 0.2);
+        --border-color: rgba(0, 0, 0, 0.06);
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--bg-color);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      overflow: hidden;
+      user-select: none;
+      -webkit-app-region: drag; /* Cho phép kéo thả cửa sổ */
+    }
+
+    .container {
+      box-sizing: border-box;
+      width: 600px;
+      padding: 56px 60px;
+      border-radius: 24px;
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border-color);
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35), 0 2px 0 rgba(255, 255, 255, 0.04) inset;
+      text-align: center;
+      position: relative;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .logo-glow {
+      width: 96px;
+      height: 96px;
+      border-radius: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 36px var(--primary-glow), 0 12px 24px rgba(0, 0, 0, 0.2);
+      animation: pulse 2.4s infinite ease-in-out;
+    }
+
+    .logo-icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 24px;
+      display: block;
+    }
+
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 0 0 10px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 40px;
+    }
+
+    /* Progress bar styling */
+    .progress-container {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 18px;
+      position: relative;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .progress-container {
+        background: rgba(0, 0, 0, 0.05);
+      }
+    }
+
+    .progress-bar {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, #6366F1, #06B6D4);
+      border-radius: 10px;
+      box-shadow: 0 0 10px var(--primary-glow);
+      transition: width 0.4s ease-out;
+    }
+
+    .status-text {
+      font-size: 13px;
+      color: var(--text-muted);
+      min-height: 18px;
+      max-height: 40px;
+      line-height: 1.5;
+      overflow: hidden;
+    }
+
+    /* Model download notice */
+    .model-notice {
+      display: none;
+      margin-top: 18px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: rgba(234, 179, 8, 0.08);
+      border: 1px solid rgba(234, 179, 8, 0.2);
+      text-align: left;
+      animation: fadeIn 0.4s ease-out;
+    }
+
+    .model-notice-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #FCD34D;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .model-notice-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .model-notice {
+        background: rgba(234, 179, 8, 0.05);
+      }
+    }
+
+    /* Driver action block */
+    .action-container {
+      display: none;
+      margin-top: 28px;
+      padding: 20px;
+      border-radius: 14px;
+      background: rgba(99, 102, 241, 0.05);
+      border: 1px dashed rgba(99, 102, 241, 0.2);
+      animation: fadeIn 0.4s ease-out;
+    }
+
+    .action-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-color);
+      margin-bottom: 6px;
+    }
+
+    .action-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+
+    .action-btn {
+      -webkit-app-region: no-drag;
+      padding: 9px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      color: white;
+      background: var(--primary);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px var(--primary-glow);
+      transition: all 0.2s ease;
+    }
+
+    .action-btn:hover {
+      background: #4F46E5;
+      transform: translateY(-1px);
+    }
+    
+    .action-btn:active {
+      transform: translateY(0);
+    }
+
+    .skip-btn {
+      -webkit-app-region: no-drag;
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+      margin-left: 8px;
+      box-shadow: none;
+    }
+
+    .skip-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-color);
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.85; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Raw install log — terminal-style, scrollable, for real diagnostics when
+       something goes wrong or just looks slow (shows actual pip/python output,
+       not just our own summarized status line). */
+    .log-panel {
+      -webkit-app-region: no-drag;
+      margin-top: 18px;
+      text-align: left;
+      background: #0A0F1C;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 10px 12px;
+      height: 160px;
+      overflow-y: auto;
+      font-family: 'Cascadia Code', 'Consolas', 'SFMono-Regular', Menlo, monospace;
+      font-size: 11px;
+      line-height: 1.6;
+      color: #8FE3A0;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .log-panel {
+        background: #0F172A;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <div class="logo-glow">
+        <img class="logo-icon" src="../frontend/dist/android-chrome-512x512.png" alt="Voice Studio">
+      </div>
+    </div>
+    <h2>Voice Studio</h2>
+    <div class="subtitle">Đang thiết lập môi trường AI cục bộ...</div>
+
+    <div class="progress-container">
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
+    
+    <div id="status" class="status-text">Đang kiểm tra cấu hình phần cứng...</div>
+
+    <!-- Model Download Notice -->
+    <div id="modelNotice" class="model-notice">
+      <div class="model-notice-title">📡 Tải mô hình AI lần đầu</div>
+      <div class="model-notice-desc">Cần kết nối internet và ~3.3GB dung lượng trống.<br>Chỉ tải một lần duy nhất — từ lần sau app khởi động ngay.</div>
+    </div>
+
+    <!-- Driver Download Prompt -->
+    <div id="driverPrompt" class="action-container">
+      <div class="action-title">Cần cập nhật NVIDIA Driver</div>
+      <div id="driverDesc" class="action-desc">Phát hiện máy có GPU nhưng chưa có Driver tương thích để tăng tốc AI 10x.</div>
+      <div>
+        <button id="downloadBtn" class="action-btn">Tải Driver NVIDIA</button>
+        <button id="skipBtn" class="action-btn skip-btn">Dùng CPU (Chậm hơn)</button>
+      </div>
+    </div>
+
+    <!-- Raw install log (terminal-style) -->
+    <div id="logPanel" class="log-panel"></div>
+  </div>
+
+  <script>
+    // Nhận sự kiện từ Electron Main Process
+    const { ipcRenderer } = require('electron');
+
+    const progressBar = document.getElementById('progressBar');
+    const statusText = document.getElementById('status');
+    const driverPrompt = document.getElementById('driverPrompt');
+    const driverDesc = document.getElementById('driverDesc');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const skipBtn = document.getElementById('skipBtn');
+    const modelNotice = document.getElementById('modelNotice');
+    const logPanel = document.getElementById('logPanel');
+
+    const MAX_LOG_LINES = 300;
+    let logLines = [];
+
+    ipcRenderer.on('setup-log', (event, line) => {
+      logLines.push(line);
+      if (logLines.length > MAX_LOG_LINES) logLines.shift();
+      logPanel.textContent = logLines.join('\n');
+      logPanel.scrollTop = logPanel.scrollHeight;
+    });
+
+    ipcRenderer.on('setup-progress', (event, { percent, status }) => {
+      progressBar.style.width = percent + '%';
+      statusText.innerText = status;
+
+      // Show model download notice when downloading model
+      const isDownloadingModel = status.includes('3.3GB') || status.includes('Tải mô hình') || status.includes('mô hình AI');
+      modelNotice.style.display = isDownloadingModel ? 'block' : 'none';
+    });
+
+    ipcRenderer.on('prompt-driver', (event, { cardName }) => {
+      driverDesc.innerText = `Phát hiện card đồ họa ${cardName} nhưng thiếu Driver NVIDIA tương thích. Vui lòng tải driver để tăng tốc độ AI nhanh gấp 10 lần.`;
+      driverPrompt.style.display = 'block';
+      progressBar.style.width = '50%';
+      statusText.innerText = 'Đợi người dùng cài đặt Driver...';
+    });
+
+    downloadBtn.addEventListener('click', () => {
+      ipcRenderer.send('action-driver', 'download');
+      driverPrompt.style.display = 'none';
+      statusText.innerText = 'Đang tải bộ cài Driver NVIDIA từ trang chủ...';
+    });
+
+    skipBtn.addEventListener('click', () => {
+      ipcRenderer.send('action-driver', 'skip');
+      driverPrompt.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
