@@ -35,23 +35,6 @@
               }
             }
           }
-
-          // Replace Donate button
-          const donateBtns = Array.from(document.querySelectorAll('button, a')).filter(el => el.textContent.includes('Donate') || el.textContent.includes('Ủng hộ'));
-          for (const btn of donateBtns) {
-            if (!btn.dataset.modified) {
-              btn.dataset.modified = 'true';
-              btn.innerHTML = '🏦 BIDV: 0982581222';
-              
-              const clone = btn.cloneNode(true);
-              btn.parentNode.replaceChild(clone, btn);
-              
-              clone.addEventListener('click', (e) => {
-                e.preventDefault();
-                alert('Thông tin Donate:\\nNgân hàng: BIDV\\nSố tài khoản: 0982581222\\nChủ tài khoản: Đinh Khánh Tùng\\n\\nXin chân thành cảm ơn sự ủng hộ của bạn!');
-              });
-            }
-          }
         }, 500);
       </script>
     </head>
@@ -60,9 +43,7 @@
       
       <div id="root"></div>
       
-      <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: var(--muted-foreground); z-index: 9999;">
-        Tài trợ bởi <a href="https://kimke.store/" target="_blank" style="color: var(--primary); text-decoration: none;">kimke.store</a>
-      </div>
+      
     </body>
   </html>
   
