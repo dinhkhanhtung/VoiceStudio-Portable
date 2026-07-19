@@ -67,7 +67,7 @@ safehttpx==0.1.7
 safetensors==0.8.0
 scikit-learn==1.9.0
 scipy==1.18.0
-sea-g2p==0.7.6
+sea-g2p==0.7.5
 semantic-version==2.10.0
 setuptools==70.2.0
 shellingham==1.5.4
@@ -87,5 +87,5 @@ typing_extensions==4.15.0
 tzdata==2026.2
 urllib3==2.7.0
 uvicorn==0.49.0
-vieneu==3.0.5
+vieneu==3.0.4
 webdataset==1.0.2

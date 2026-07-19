@@ -69,9 +69,7 @@ def startup_event():
     try:
         print(f"🚀 Initializing OmniVoice TTS Server on device: {device}", file=sys.stderr)
         wrapper = OmniVoiceWrapper(device=device)
-        # Pre-load model weights into memory/VRAM
-        wrapper.load()
-        print("🎯 OmniVoice model loaded and ready in memory!", file=sys.stderr)
+        print("🎯 OmniVoice model initialized (lazy load)!", file=sys.stderr)
 
         print("🚀 Initializing VieNeu-TTS Server on CPU", file=sys.stderr)
         vieneu_wrapper = VieneuWrapper(device="cpu")
@@ -139,6 +137,11 @@ def synthesize(req: SynthesizeRequest):
                 progress_callback=write_progress
             )
         else:
+            if wrapper.model is None:
+                print("⏳ Lazy loading OmniVoice model...", file=sys.stderr)
+                wrapper.load()
+                print("🎯 OmniVoice model loaded!", file=sys.stderr)
+
             audio_data, sample_rate, stats = wrapper.synthesize(
                 req.text,
                 speed=req.speed,
