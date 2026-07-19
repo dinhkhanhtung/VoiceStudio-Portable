@@ -188,29 +188,17 @@ function promptDataDirectory() {
 
 
 ipcMain.handle('update:check', async () => {
-  if (!app.isPackaged) return { skipped: 'dev-mode' };
-  return autoUpdater.checkForUpdates();
+  // Always mock no updates for portable version
+  return { skipped: 'portable-mode-disabled' };
 });
 
 ipcMain.handle('update:download', async () => {
-  if (!app.isPackaged) return { skipped: 'dev-mode' };
-  return autoUpdater.downloadUpdate();
+  return { skipped: 'portable-mode-disabled' };
 });
 
 ipcMain.handle('update:install', async () => {
-  if (!app.isPackaged) return { skipped: 'dev-mode' };
-  return autoUpdater.quitAndInstall();
+  return { skipped: 'portable-mode-disabled' };
 });
-
-if (app.isPackaged) {
-  ['checking-for-update', 'update-available', 'update-not-available', 'download-progress', 'update-downloaded', 'error'].forEach((eventName) => {
-    autoUpdater.on(eventName, (data) => {
-      if (mainWindow && !mainWindow.isDestroyed()) {
-        mainWindow.webContents.send('update:event', { type: eventName, payload: data });
-      }
-    });
-  });
-}
 
 // 3. Start setup procedure
 function runSetup(userDataDir) {
@@ -309,11 +297,12 @@ app.on('ready', async () => {
           }
           createMainWindow();
 
-          if (app.isPackaged) {
-            setTimeout(() => {
-              autoUpdater.checkForUpdates().catch((err) => console.error('Auto-update check failed:', err));
-            }, 3000);
-          }
+          // Disable auto updates for portable mode
+          // if (app.isPackaged) {
+          //   setTimeout(() => {
+          //     autoUpdater.checkForUpdates().catch((err) => console.error('Auto-update check failed:', err));
+          //   }, 3000);
+          // }
         }, 1500);
 
       } else {
