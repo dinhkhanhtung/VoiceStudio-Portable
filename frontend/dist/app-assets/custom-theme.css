@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Outfit', sans-serif !important;
+  --font-size: 17px !important;
+
+  /* Slate & Cobalt Theme - Light */
+  --background: oklch(98% 0.01 250) !important;
+  --foreground: oklch(25% 0.03 250) !important;
+  --card: oklch(100% 0 0) !important;
+  --card-foreground: oklch(25% 0.03 250) !important;
+  --popover: oklch(100% 0 0) !important;
+  --popover-foreground: oklch(25% 0.03 250) !important;
+  --primary: oklch(52% 0.16 255) !important; /* Premium Cobalt Blue */
+  --primary-foreground: oklch(98.5% 0 0) !important;
+  --secondary: oklch(94% 0.02 250) !important;
+  --secondary-foreground: oklch(35% 0.04 250) !important;
+  --muted: oklch(95% 0.02 250) !important;
+  --muted-foreground: oklch(55% 0.04 250) !important;
+  --accent: oklch(94% 0.02 250) !important;
+  --accent-foreground: oklch(35% 0.04 250) !important;
+  --destructive: oklch(54% 0.2 25) !important;
+  --destructive-foreground: oklch(98.5% 0 0) !important;
+  --border: oklch(90% 0.02 250) !important;
+  --input: oklch(90% 0.02 250) !important;
+  --ring: oklch(52% 0.16 255) !important;
+  --radius: 1rem !important; /* Soft, graspable elements */
+}
+
+.dark {
+  /* Slate & Cobalt Theme - Dark */
+  --background: oklch(18% 0.02 250) !important;
+  --foreground: oklch(95% 0.01 250) !important;
+  --card: oklch(22% 0.02 250) !important;
+  --card-foreground: oklch(95% 0.01 250) !important;
+  --popover: oklch(22% 0.02 250) !important;
+  --popover-foreground: oklch(95% 0.01 250) !important;
+  --primary: oklch(62% 0.16 255) !important; /* Bright Cobalt */
+  --primary-foreground: oklch(98.5% 0 0) !important;
+  --secondary: oklch(26% 0.02 250) !important;
+  --secondary-foreground: oklch(95% 0.01 250) !important;
+  --muted: oklch(26% 0.02 250) !important;
+  --muted-foreground: oklch(75% 0.02 250) !important;
+  --accent: oklch(26% 0.02 250) !important;
+  --accent-foreground: oklch(95% 0.01 250) !important;
+  --destructive: oklch(54% 0.2 25) !important;
+  --destructive-foreground: oklch(98.5% 0 0) !important;
+  --border: oklch(30% 0.02 250) !important;
+  --input: oklch(30% 0.02 250) !important;
+  --ring: oklch(62% 0.16 255) !important;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Micro-animations and depth */
+button, .inline-flex, .btn {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+button:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: none !important;
+}
+
+.dark button:hover:not(:disabled) {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Card glassmorphism & soft shadows */
+.rounded-xl, .rounded-lg {
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.03), 0 0 1px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.rounded-xl:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.05) !important;
+}
+
+.dark .rounded-xl, .dark .rounded-lg {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Better Scrollbar for desktop */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 5px;
+  border: 2px solid var(--background);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
