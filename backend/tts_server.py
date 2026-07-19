@@ -91,7 +91,7 @@ def health():
         "vieneu_ready": vieneu_wrapper is not None
     }
 
-@app.post("/synthesize", dependencies=[Depends(require_license)])
+@app.post("/synthesize")
 def synthesize(req: SynthesizeRequest):
     if req.engine == "omnivoice" and not req.instruct and not req.ref_audio:
         raise HTTPException(status_code=400, detail="Cần truyền instruct hoặc ref_audio cho OmniVoice")

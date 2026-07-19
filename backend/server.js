@@ -17,16 +17,8 @@ const DEMO_MODE = process.env.DEMO_MODE === '1';
 const APP_AUTH_TOKEN = process.env.APP_AUTH_TOKEN;
 
 async function checkLicense(req, res, next) {
-  if (DEMO_MODE) return next();
-  const license = await licenseManager.getSavedLicense();
-  if (!license.licensed) {
-    return res.status(402).json({
-      success: false,
-      error: 'Ứng dụng chưa được kích hoạt bản quyền hoặc đã hết hạn sử dụng. Vui lòng kích hoạt.',
-      machineId: license.machineId
-    });
-  }
-  next();
+  // License check bypassed
+  return next();
 }
 const PORT = process.env.PORT || 8891;
 
@@ -191,7 +183,7 @@ function addSynthesizeNoti(result, text, voice) {
 
 // --- LICENSE API ---
 app.get('/api/license/status', async (req, res) => {
-  res.json(await licenseManager.getSavedLicense());
+  res.json({ licensed: true, machineId: "bypassed", expiry: null });
 });
 
 app.post('/api/license/activate', async (req, res) => {

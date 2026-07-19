@@ -1,6 +1,16 @@
 import { Mic, Volume2, Languages, Library, History, Settings } from "lucide-react";
 
+import { useAppContext } from "@/lib/context/app-context";
+
 export function Sidebar() {
+  const { activeView, setActiveView } = useAppContext();
+
+  const getNavClass = (viewId: string) => {
+    return activeView === viewId
+      ? "w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 bg-primary text-primary-foreground shadow-sm"
+      : "w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground";
+  };
+
   return (
     <div className="w-64 h-screen bg-card border-r border-border flex flex-col transition-colors duration-300">
       <div className="p-6 border-b border-border">
@@ -15,27 +25,27 @@ export function Sidebar() {
       </div>
       <nav className="flex-1 p-4">
         <div className="space-y-1">
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 bg-primary text-primary-foreground shadow-sm">
+          <button onClick={() => setActiveView("tts")} className={getNavClass("tts")}>
             <Volume2 className="w-5 h-5" />
             <span className="text-[15px] font-medium">Đọc văn bản</span>
           </button>
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground">
+          <button onClick={() => setActiveView("translate")} className={getNavClass("translate")}>
             <Languages className="w-5 h-5" />
             <span className="text-[15px] font-medium">Dịch</span>
           </button>
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground">
+          <button onClick={() => setActiveView("library")} className={getNavClass("library")}>
             <Library className="w-5 h-5" />
             <span className="text-[15px] font-medium">Thư viện giọng nói</span>
           </button>
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground">
+          <button onClick={() => setActiveView("clone")} className={getNavClass("clone")}>
             <Mic className="w-5 h-5" />
             <span className="text-[15px] font-medium">Giọng nói của bạn</span>
           </button>
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground">
+          <button onClick={() => setActiveView("history")} className={getNavClass("history")}>
             <History className="w-5 h-5" />
             <span className="text-[15px] font-medium">Lịch sử</span>
           </button>
-          <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-foreground hover:bg-muted hover:text-foreground">
+          <button onClick={() => setActiveView("settings")} className={getNavClass("settings")}>
             <Settings className="w-5 h-5" />
             <span className="text-[15px] font-medium">Cài đặt</span>
           </button>

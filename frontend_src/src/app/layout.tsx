@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   description: "Đọc văn bản, dịch và nhân bản giọng nói cá nhân.",
 };
 
+import { AppProvider } from "@/lib/context/app-context";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="vi" className={outfit.variable}>
       <body className="antialiased font-sans">
-        {children}
+        <AppProvider>
+          {children}
+        </AppProvider>
         
         {/* Credit requirements based on rule */}
         <div style={{position: 'fixed', bottom: '10px', right: '10px', fontSize: '12px', color: 'var(--muted-foreground)', zIndex: 9999}}>
