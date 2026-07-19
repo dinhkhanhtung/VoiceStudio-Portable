@@ -17,6 +17,26 @@
       <script type="module" crossorigin src="/app-assets/index-DOc6MRy9.js"></script>
       <link rel="stylesheet" crossorigin href="/app-assets/index-B26D5QHb.css">
       <link rel="stylesheet" crossorigin href="/app-assets/custom-theme.css">
+      <script>
+        // Hide the update section (since it's a portable app)
+        setInterval(() => {
+          const elements = Array.from(document.querySelectorAll('div, h2, h3'));
+          for (const el of elements) {
+            if (el.textContent === 'Cập nhật ứng dụng' || el.textContent === 'App update') {
+              let parent = el.parentElement;
+              while (parent && parent.tagName !== 'BODY') {
+                const classStr = parent.className || '';
+                // The card usually has these classes in Tailwind/shadcn
+                if (classStr.includes('border') && classStr.includes('rounded')) {
+                  parent.style.display = 'none';
+                  break;
+                }
+                parent = parent.parentElement;
+              }
+            }
+          }
+        }, 500);
+      </script>
     </head>
 
     <body>
